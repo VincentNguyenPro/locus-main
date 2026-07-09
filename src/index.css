@@ -12,10 +12,12 @@ html, body, #root {
   overflow: hidden;
 }
 
-/* Panneau verre — réutilisé partout (règle de sobriété) */
+/* Panneau verre — réutilisé partout (règle de sobriété). Fond sombre (pas
+   blanc) pour garder le texte clair lisible même au-dessus d'un fond clair
+   (ex: district.jpg dans le lobby). */
 .glass {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(8, 10, 14, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(16px);
   border-radius: 16px;
 }

@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #0a0c10;
+  color: #e5e7eb;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  overflow: hidden;
+}
+
+/* Panneau verre — réutilisé partout (règle de sobriété) */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+}
+
+/* Border Beam — effet n°1 (sur 2 max) : liseré lumineux sur le panneau actif.
+   CSS pur, zéro dépendance. */
+@property --beam-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.border-beam {
+  position: relative;
+}
+.border-beam::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 17px;
+  padding: 1px;
+  background: conic-gradient(from var(--beam-angle), transparent 75%, #22d3ee);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: beam-rotate 2.6s linear infinite;
+  pointer-events: none;
+}
+@keyframes beam-rotate {
+  to {
+    --beam-angle: 360deg;
+  }
+}
+
+
+/* Landing (ouverture éditoriale) */
+.landing-arrow {
+  transition: transform 0.5s;
+  font-weight: 100;
+}
+.landing-cta:hover .landing-arrow {
+  transform: translateX(8px);
+}
+.landing-line {
+  width: 48px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  transition: width 0.7s;
+}
+.landing-cta:hover .landing-line {
+  width: 96px;
+}
+
+/* District lobby — the TODAY account marker pulses on the map. */
+@keyframes districtPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.5); opacity: 0.55; }
+}

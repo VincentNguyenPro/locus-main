@@ -1,0 +1,99 @@
+{
+  "account": {
+    "name": "L'Oréal",
+    "meeting": "Discovery call · 3 days ago, 15:00",
+    "context": "Exploring data activation for the DTC push. Early stage. Champion identified, budget owner unknown.",
+    "timeline": [
+      { "date": "Jun 30", "label": "Inbound request" },
+      { "date": "Jul 6", "label": "Discovery call", "latest": true }
+    ]
+  },
+  "target": {
+    "first_name": "Sophie",
+    "last_name": "Berger",
+    "company_name": "L'Oréal",
+    "domain": "loreal.com"
+  },
+  "transcript": "L'Oréal discovery call — July 6. Present: Antoine Mercier (Growth Lead, L'Oréal), Léa Fontan (Data Analyst, L'Oréal), and Alex on our side. Antoine: \"Our DTC push needs better data activation, we're evaluating three vendors this month.\" Léa: \"The integration looks straightforward on our side.\" Antoine: \"Final call sits with Sophie, our VP Digital — she owns the vendor budget.\" Open commitments: send a comparison one-pager, schedule a technical deep-dive. Sales angle: vendor evaluation closing this month, decision-maker = Sophie (VP Digital), not on the call.",
+  "stakeholders": [
+    {
+      "name": "Antoine Mercier",
+      "role": "Growth Lead",
+      "status": "known",
+      "stance": "champion · pushing the evaluation",
+      "quote": "Our DTC push needs better data activation, we're evaluating three vendors this month.",
+      "play": "He is comparing you to two rivals. Arm him with the one-pager so he sells you internally."
+    },
+    {
+      "name": "Léa Fontan",
+      "role": "Data Analyst",
+      "status": "known",
+      "stance": "technical validator · positive",
+      "quote": "The integration looks straightforward on our side.",
+      "play": "Her green light removes the technical objection. Get it in writing via the deep-dive."
+    },
+    {
+      "name": "Sophie Berger",
+      "role": "VP Digital",
+      "status": "unknown_target",
+      "stance": "budget owner · not met yet",
+      "quote": "(not on the call — named as the one who owns the vendor budget)",
+      "play": "Three vendors, one month: whoever reaches Sophie first frames the comparison."
+    }
+  ],
+  "insights": {
+    "angle": "Vendor evaluation closes this month. The budget owner (Sophie) has not met anyone yet: reach her before the rivals do, with Antoine's shortlist as the opener.",
+    "promesses": [
+      { "text": "Send the comparison one-pager", "owner": "Alex (us)", "due": "this week", "action": "Attach it to the outreach to Sophie." },
+      { "text": "Schedule the technical deep-dive with Léa", "owner": "Léa", "due": "next week", "action": "Propose two slots in the follow-up." }
+    ]
+  },
+  "contact": {
+    "id": "main",
+    "name": "Sophie Berger",
+    "email": "sophie.berger@loreal.com",
+    "phone": "+33 6 45 12 78 90",
+    "role": "VP Digital",
+    "status": "FINISHED",
+    "isLive": false,
+    "signal": "Presented the DTC roadmap at VivaTech, 2 weeks ago",
+    "details": {
+      "emails": [
+        { "email": "sophie.berger@loreal.com", "status": "VERIFIED" }
+      ],
+      "phones": [{ "number": "+33 6 45 12 78 90" }],
+      "headline": "VP Digital @ L'Oréal · ex-Google, 8 years in beauty tech",
+      "location": "Clichy, Île-de-France",
+      "linkedin": "https://linkedin.com/in/sophie-berger-digital",
+      "company": {
+        "name": "L'Oréal",
+        "domain": "loreal.com",
+        "industry": "Beauty · CPG",
+        "size": "85,000+ employees"
+      }
+    }
+  },
+  "sillage": {
+    "signal": "Presented the DTC roadmap at VivaTech, 2 weeks ago",
+    "signals": [
+      {
+        "text": "Sophie Berger presented the DTC roadmap at VivaTech",
+        "recency": "2w",
+        "type": "news",
+        "why": "The DTC push is public and has her name on it. Your pitch aligns with her stated agenda.",
+        "action": "Open your outreach by referencing her VivaTech talk."
+      },
+      {
+        "text": "L'Oréal posts 8 data engineering roles",
+        "recency": "1w",
+        "type": "hiring",
+        "why": "Data team is scaling: activation tooling decisions are being made now.",
+        "action": "Position the deep-dive as onboarding material for the incoming team."
+      }
+    ]
+  },
+  "email": {
+    "subject": "Your VivaTech DTC roadmap — vendor shortlist input",
+    "body": "Hi Sophie,\n\nYour VivaTech talk on the DTC roadmap resonated — data activation is exactly where we help.\n\nAntoine and Léa are evaluating us this month; Léa confirmed the integration is straightforward on your side. Before the shortlist closes, I'd value 15 minutes to show you how we frame the comparison.\n\nOne-pager attached.\n\nBest,\nAlex"
+  }
+}

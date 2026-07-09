@@ -1,0 +1,246 @@
+{
+  "account": {
+    "name": "Sephora",
+    "meeting": "Sales meeting · yesterday, 11:00",
+    "context": "Premium acquisition relaunch before September. Data is ready. Budget is not signed.",
+    "timeline": [
+      {
+        "date": "Jun 12",
+        "label": "Discovery call"
+      },
+      {
+        "date": "Jun 25",
+        "label": "Product demo"
+      },
+      {
+        "date": "Jul 8",
+        "label": "Sales meeting",
+        "latest": true
+      }
+    ]
+  },
+  "target": {
+    "first_name": "Marc",
+    "last_name": "Dupont",
+    "company_name": "Sephora",
+    "domain": "sephora.com"
+  },
+  "transcript": "Sephora meeting — July 9. Present: Claire Fontaine (Digital Director, Sephora), Julien Reyes (CRM Manager, Sephora), and Alex on our side. Claire: \"We want to relaunch acquisition on the premium segment before back-to-school season.\" Julien: \"Technically we're ready on the data side, but any budget decision goes through Marc, our Head of Sales — he makes the call.\" Alex: \"I'll send you a proposal this week.\" Claire: \"Perfect, put Marc in copy, we need his go.\" Open commitments: send the proposal, loop in Marc. Sales angle: premium budget validation before September, decision-maker = Marc (Head of Sales), not present in the meeting.",
+  "stakeholders": [
+    {
+      "name": "Claire Fontaine",
+      "role": "Digital Director",
+      "status": "known",
+      "stance": "sponsor · driving the project",
+      "quote": "We want to relaunch acquisition on the premium segment before back-to-school season.",
+      "play": "Your internal champion. Keep her in every loop; she sells for you when you're not in the room."
+    },
+    {
+      "name": "Julien Reyes",
+      "role": "CRM Manager",
+      "status": "known",
+      "stance": "technical ally · data is ready",
+      "quote": "Technically we're ready on the data side, but any budget decision goes through Marc.",
+      "play": "Proof that execution is de-risked. Quote him to Marc: the only missing piece is the budget call."
+    },
+    {
+      "name": "Marc Dupont",
+      "role": "Head of Sales",
+      "status": "unknown_target",
+      "stance": "budget decision-maker · to be won over",
+      "quote": "(not in the meeting — mentioned as the one who makes the call)",
+      "play": "The deal lives or dies with him. New in the role: reach out now, while he's building his agenda."
+    },
+    {
+      "name": "Sophie Laurent",
+      "role": "Chief Revenue Officer",
+      "status": "committee",
+      "stance": "economic buyer · signs above Marc",
+      "quote": "(not in the meeting — surfaced by the agent as Marc's manager)",
+      "play": "A premium bet this size clears Marc's budget ceiling. Get Sophie's implicit backing early so Marc can say yes without escalating."
+    }
+  ],
+  "insights": {
+    "angle": "Premium budget validation before September. The decision-maker (Marc) was not in the room: reach him directly, with Claire and Julien's context as internal social proof.",
+    "promesses": [
+      {
+        "text": "Send the proposal this week",
+        "owner": "Alex (us)",
+        "due": "this week",
+        "action": "Attach it to the follow-up email — done in one move."
+      },
+      {
+        "text": "Put Marc in copy and get his budget go",
+        "owner": "Claire",
+        "due": "before September",
+        "action": "Don't wait for Claire: the follow-up goes straight to Marc, with her as social proof."
+      }
+    ]
+  },
+  "contact": {
+    "id": "main",
+    "name": "Marc Dupont",
+    "email": "marc.dupont@sephora.com",
+    "phone": "+33 6 12 34 56 78",
+    "role": "Head of Sales",
+    "status": "FINISHED",
+    "isLive": false,
+    "signal": "Joined Sephora as Head of Sales, yesterday",
+    "details": {
+      "emails": [
+        {
+          "email": "marc.dupont@sephora.com",
+          "status": "VERIFIED"
+        },
+        {
+          "email": "m.dupont@sephora.fr",
+          "status": "HIGH_PROBABILITY"
+        }
+      ],
+      "phones": [
+        {
+          "number": "+33 6 12 34 56 78"
+        }
+      ],
+      "headline": "Head of Sales @ Sephora · ex-L'Oréal, 12 years in beauty retail",
+      "location": "Paris, Île-de-France",
+      "linkedin": "https://linkedin.com/in/marc-dupont-sales",
+      "company": {
+        "name": "Sephora",
+        "domain": "sephora.com",
+        "industry": "Retail — Beauty",
+        "size": "10,000+ employees"
+      }
+    }
+  },
+  "sillage": {
+    "signal": "Joined Sephora as Head of Sales, yesterday",
+    "signals": [
+      {
+        "text": "Marc Dupont joined Sephora as Head of Sales",
+        "recency": "1d",
+        "type": "job_change",
+        "why": "New executives spend their first 90 days making moves. His budget agenda is being written right now.",
+        "action": "Open the follow-up with his arrival — it proves you're paying attention."
+      },
+      {
+        "text": "Sephora opens 12 Sales & Growth roles in Paris",
+        "recency": "5d",
+        "type": "hiring",
+        "why": "Hiring in Sales & Growth = the premium push has headcount budget behind it.",
+        "action": "Frame your proposal as leverage for the incoming team."
+      },
+      {
+        "text": "Digital Director interview: \"premium is our 2026 priority\"",
+        "recency": "2w",
+        "type": "news",
+        "why": "Claire said it publicly — the project has executive air cover.",
+        "action": "Quote the interview in the proposal deck. Her words, your argument."
+      },
+      {
+        "text": "Loyalty program overhaul announced for September",
+        "recency": "3w",
+        "type": "news",
+        "why": "September is a hard deadline on their side too. Your timeline and theirs align.",
+        "action": "Anchor the proposal timeline to the loyalty launch."
+      }
+    ]
+  },
+  "email": {
+    "subject": "Sephora premium proposal — your go, Marc?",
+    "body": "Hi Marc,\n\nWelcome to Sephora — I saw you just took over as Head of Sales. Congratulations.\n\nI spoke with Claire and Julien yesterday about relaunching premium acquisition before September. On the data side, Julien's team is ready; the only missing piece is your budget call.\n\nI'm attaching the proposal. 15 minutes this week to lock in the go?\n\nBest,\nAlex"
+  },
+  "directory": [
+    {
+      "name": "Sephora",
+      "signals": 3,
+      "status": "ready",
+      "last": "Meeting · yesterday",
+      "today": true,
+      "why": "1d signal · open loop"
+    },
+    {
+      "name": "L'Oréal",
+      "signals": 2,
+      "status": "ready",
+      "last": "Signal · 1d"
+    },
+    {
+      "name": "Doctolib",
+      "signals": 4,
+      "status": "ready",
+      "last": "Renewal · 30d"
+    },
+    {
+      "name": "Chanel",
+      "signals": 1,
+      "status": "ready",
+      "last": "Call · 6d"
+    },
+    {
+      "name": "Back Market",
+      "signals": 1,
+      "status": "ready",
+      "last": "Risk · champion left",
+      "risk": {
+        "text": "Your champion, Léa Martin (VP Growth), left Back Market 6 days ago.",
+        "why": "No active sponsor inside the account and a renewal is 40 days out — this is how silent churn starts.",
+        "action": "Re-anchor now: ask Léa for a warm intro to her successor and get a second contact before renewal hits the danger zone."
+      }
+    },
+    {
+      "name": "Veepee",
+      "signals": 2,
+      "status": "ready",
+      "last": "Budget · Q3 open"
+    },
+    {
+      "name": "Decathlon",
+      "signals": 1,
+      "status": "ready",
+      "last": "Pilot · running"
+    },
+    {
+      "name": "Alan",
+      "signals": 2,
+      "status": "ready",
+      "last": "Expansion · in talks"
+    },
+    {
+      "name": "Swile",
+      "signals": 1,
+      "status": "ready",
+      "last": "Signal · 3d"
+    },
+    {
+      "name": "Contentsquare",
+      "signals": 2,
+      "status": "ready",
+      "last": "Meeting · Mon"
+    },
+    {
+      "name": "Pennylane",
+      "signals": 1,
+      "status": "ready",
+      "last": "Intro · via investor"
+    },
+    {
+      "name": "Qonto",
+      "signals": 0,
+      "status": "preparing",
+      "last": "Meeting · Fri"
+    },
+    {
+      "name": "Blablacar",
+      "signals": 0,
+      "status": "preparing",
+      "last": "Inbound · demo request"
+    },
+    {
+      "name": "Mirakl",
+      "signals": 0,
+      "status": "preparing",
+      "last": "New · first signal"
+    }
+  ]
+}

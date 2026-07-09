@@ -1,0 +1,100 @@
+{
+  "account": {
+    "name": "Chanel",
+    "meeting": "Follow-up call · last week, 10:30",
+    "context": "Pilot on clienteling data ran well. Renewal and scope expansion on the table. Legal review pending.",
+    "timeline": [
+      { "date": "May 20", "label": "Pilot kickoff" },
+      { "date": "Jun 18", "label": "Pilot review" },
+      { "date": "Jul 2", "label": "Follow-up call", "latest": true }
+    ]
+  },
+  "target": {
+    "first_name": "Karim",
+    "last_name": "Haddad",
+    "company_name": "Chanel",
+    "domain": "chanel.com"
+  },
+  "transcript": "Chanel follow-up call — July 2. Present: Margaux Lheritier (CRM Director, Chanel), Alex on our side. Margaux: \"The pilot numbers convinced my team, we want to expand to the EU boutiques.\" Margaux: \"Procurement will loop in Karim from Legal for the data processing terms — he can be slow, plan for it.\" Open commitments: send the expansion pricing, provide the DPA draft for legal. Sales angle: expansion is wanted by the business side; the risk is the legal timeline, decision gate = Karim (Legal Counsel), never met.",
+  "stakeholders": [
+    {
+      "name": "Margaux Lheritier",
+      "role": "CRM Director",
+      "status": "known",
+      "stance": "buyer · convinced by the pilot",
+      "quote": "The pilot numbers convinced my team, we want to expand to the EU boutiques.",
+      "play": "She is already sold. Your job is to remove friction from her path, not to pitch her again."
+    },
+    {
+      "name": "Karim Haddad",
+      "role": "Legal Counsel",
+      "status": "unknown_target",
+      "stance": "legal gate · known to be slow",
+      "quote": "(never met — procurement will loop him in for the data processing terms)",
+      "play": "The deal dies in legal review delays. Reach Karim proactively with the DPA before procurement does."
+    },
+    {
+      "name": "Procurement",
+      "role": "Process owner",
+      "status": "known",
+      "stance": "neutral · follows the process",
+      "quote": "(mentioned — will run the expansion paperwork)",
+      "play": "Keep them fed with clean paperwork; they accelerate when documents arrive complete."
+    }
+  ],
+  "insights": {
+    "angle": "The business side is sold; the only risk is the legal timeline. Get the DPA into Karim's hands proactively — a deal that waits for legal in Q3 slips to Q4.",
+    "promesses": [
+      { "text": "Send the expansion pricing", "owner": "Alex (us)", "due": "this week", "action": "Include the EU boutiques tier Margaux asked for." },
+      { "text": "Provide the DPA draft for legal", "owner": "Alex (us)", "due": "before procurement loops in", "action": "Attach it to the outreach to Karim — arrive before the process does." }
+    ]
+  },
+  "contact": {
+    "id": "main",
+    "name": "Karim Haddad",
+    "email": "karim.haddad@chanel.com",
+    "phone": "+33 6 88 34 21 09",
+    "role": "Legal Counsel",
+    "status": "FINISHED",
+    "isLive": false,
+    "signal": "Published a note on EU data-transfer frameworks, 3 weeks ago",
+    "details": {
+      "emails": [
+        { "email": "karim.haddad@chanel.com", "status": "VERIFIED" }
+      ],
+      "phones": [{ "number": "+33 6 88 34 21 09" }],
+      "headline": "Legal Counsel @ Chanel · data & privacy",
+      "location": "Neuilly-sur-Seine",
+      "linkedin": "https://linkedin.com/in/karim-haddad-legal",
+      "company": {
+        "name": "Chanel",
+        "domain": "chanel.com",
+        "industry": "Luxury · Fashion",
+        "size": "32,000+ employees"
+      }
+    }
+  },
+  "sillage": {
+    "signal": "Published a note on EU data-transfer frameworks, 3 weeks ago",
+    "signals": [
+      {
+        "text": "Karim Haddad published a note on EU data-transfer frameworks",
+        "recency": "3w",
+        "type": "news",
+        "why": "He cares about clean data-transfer terms. A DPA aligned with his own framework sails through.",
+        "action": "Mirror his note's vocabulary in the DPA cover email."
+      },
+      {
+        "text": "Chanel expands boutique clienteling program to 12 EU countries",
+        "recency": "1w",
+        "type": "news",
+        "why": "The expansion your pilot feeds is public and funded.",
+        "action": "Anchor the pricing to the 12-country rollout."
+      }
+    ]
+  },
+  "email": {
+    "subject": "DPA draft for the clienteling expansion — ahead of procurement",
+    "body": "Hi Karim,\n\nMargaux's team is expanding the clienteling pilot to the EU boutiques, and the data processing terms will land on your desk via procurement soon.\n\nTo save you a cycle, here is our DPA draft aligned with the EU data-transfer framework — I noticed your recent note on the topic and matched its structure.\n\nHappy to walk through it in 15 minutes this week.\n\nBest,\nAlex"
+  }
+}

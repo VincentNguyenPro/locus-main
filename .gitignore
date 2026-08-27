@@ -6,3 +6,6 @@ server/.env
 *.log
 .DS_Store
 .gstack/
+
+# graphify
+graphify-out/
